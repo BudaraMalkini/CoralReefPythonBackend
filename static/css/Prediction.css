@@ -1,0 +1,123 @@
+
+  /*--------------------------------------------------------------
+# Appointments
+--------------------------------------------------------------*/
+.appointment .php-email-form {
+    width: 100%;
+  }
+  
+  .appointment .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .appointment .php-email-form input,
+  .appointment .php-email-form textarea,
+  .appointment .php-email-form select {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 10px !important;
+  }
+  
+  .appointment  input:focus,
+  .appointment  textarea:focus,
+  .appointment  select:focus {
+    border-color: #1977cc;
+  }
+
+  .appointment  input,
+  .appointment .php-email-form select {
+    height: 44px;
+  }
+
+  .appointment  button[type=submit] {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 75px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  .appointment  button[type=submit]:hover {
+    background: #1c84e3;
+  }
+
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+
+  .section-bg {
+    background-color:#dde8ee;
+  }
+
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+  }
+
+  .section-title h3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    position: relative;
+    color: #2c4964;
+  }
+
+  .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+
+  .section-title p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+.card2{
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin-top: 15px;
+}
+
+.result{
+color: #2c4964;
+font-size: 1.4rem;
+font-weight: bold;
+  text-align: center;
+}
+
+  
